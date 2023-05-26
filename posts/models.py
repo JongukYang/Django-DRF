@@ -1,10 +1,9 @@
+# option + command 방향키
+# command + D => 다중 선택 가능
 from django.db import models
 from django.contrib.auth import get_user_model
 
 User = get_user_model()
-
-# option + command 방향키
-# command + D => 다중 선택 가능
 
 
 class Post(models.Model):
